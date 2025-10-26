@@ -23,6 +23,7 @@ resource "aws_instance" "server_01" {
 
   tags = {
     Name = "server-01"
+    Owner = "CE-Department"
   }
 }
 
