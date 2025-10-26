@@ -8,7 +8,7 @@ phases:
       - mv terraform /usr/local/bin/
   pre_build:
     commands: 
-      - echo "Initializing Terraform""
+      - echo "Initializing Terraform"
       - terraform init
   build:
     commands: 
